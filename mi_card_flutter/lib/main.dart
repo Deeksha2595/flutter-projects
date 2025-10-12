@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(Icons.phone, color: Colors.teal),
                   title: Text(
-                    '+91 8489681499',
+                    '+91 8xxxxxxxx9',
                     style: TextStyle(
                       fontFamily: 'Source Sans 3',
                       fontSize: 18,
@@ -70,7 +70,7 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(Icons.email, color: Colors.teal),
                   title: Text(
-                    'mdeeksha2595@gmail.com',
+                    'mdxxxxxxxxxx@gmail.com',
                     style: TextStyle(
                       fontFamily: 'Source Sans 3',
                       fontSize: 18,
