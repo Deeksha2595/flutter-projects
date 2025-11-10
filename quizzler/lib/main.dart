@@ -138,21 +138,21 @@ class _QuizPageState extends State<QuizPage> {
       type: AlertType.warning,
       image: null,
       title: "Finished",
-      desc: "View Score?",
+      desc: "View Score->",
       style: AlertStyle(
         backgroundColor: Colors.grey.shade900,
         titleStyle: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         descStyle: TextStyle(color: Colors.white70),
       ),
       buttons: [
-        DialogButton(
-          onPressed: () => Navigator.pop(context),
-          color: Color.fromRGBO(0, 179, 134, 1.0),
-          child: Text(
-            "No",
-            style: TextStyle(color: Colors.white, fontSize: 20),
-          ),
-        ),
+        // DialogButton(
+        //   onPressed: () => Navigator.pop(context),
+        //   color: Color.fromRGBO(0, 179, 134, 1.0),
+        //   child: Text(
+        //     "No",
+        //     style: TextStyle(color: Colors.white, fontSize: 20),
+        //   ),
+        // ),
         DialogButton(
           onPressed: () {
             Navigator.pop(context); // close alert
